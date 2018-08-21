@@ -45,8 +45,10 @@ Challenges
 •	Shipboard CTD data may be in different formats from different ships
 
 Steps
-•	Determine time periods and OOI data sets (based on CTD cast timing for both deployed and recovered CTD casts)
-
+•	Set up a GitHub repository
+•	Set up a Jupyter notebook
+•	Determine time periods (based on CTD cast timing for both deployed and recovered CTD casts)
+•	Determine the data sets
 
 For each instrument/measurement type:
 •	Download telemetered data from OOI Data Portal (M2M)
@@ -70,11 +72,11 @@ GI03FLMA-00002	18 Aug 2015 – 17 Jul 2016
 GI03FLMB-00002	21 Aug 2015 – 18 Jul 2016
 
 Irminger 2 CTD at GI01SUMO-00002	  23 Aug 2015	21:21-22:38 UTC
-Irminger 2 CTD at GI03FLMA-00002		19 Aug 2015	22:08-23:18 UTC
-Irminger 2 CTD at GI03FLMB-00002		21 Aug 2015	19:14-21:22 UTC
+Irminger 2 CTD at GI03FLMA-00002	  19 Aug 2015	22:08-23:18 UTC
+Irminger 2 CTD at GI03FLMB-00002	  21 Aug 2015	19:14-21:22 UTC
 
 Irminger 3 CTD at GI01SUMO-00002	  16 Jul 2016 	20:20-21:20 UTC
-Irminger 3 CTD at GI03FLMA-00002		12 Jul 2016 	19:27-21:27 UTC
-Irminger 3 CTD at GI03FLMB-00002		13 Jul 2016 	16:23-18:14 UTC
+Irminger 3 CTD at GI03FLMA-00002	  12 Jul 2016 	19:27-21:27 UTC
+Irminger 3 CTD at GI03FLMB-00002	  13 Jul 2016 	16:23-18:14 UTC
 
 
