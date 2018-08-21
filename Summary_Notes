@@ -1,0 +1,63 @@
+Project:  Validation of mooring instrument data with CTD cast and water sampling data
+
+Data and datasets
+Surface Mooring Instruments – pull from OOI Data Portal (M2M?)
+Look at both telemetered and recovered data
+•	CTDBP, CTDMO
+•	DOSTA
+•	FLORT
+•	PHSEN
+•	PCO2W
+•	NUTNR
+
+Flanking Mooring Instrumets – pull from OOI Data Portal (M2M?)\
+Look at both telemetered and recovered data
+•	CTDMO
+•	DOSTA
+•	FLORT
+•	PHSEN
+
+Shipboard CTD Rosette Measurements – download from Alfresco (by cast)
+•	Temperature
+•	Salinity (Conductivity)
+•	Dissolved oxygen
+•	Fluorometer
+
+Water Sampling – download from Alfresco (by type)
+•	Salts
+•	Oxygen
+•	Chlorophyll
+•	pH
+•	DIC/TA
+•	Nutrients
+
+Issues/Actions
+•	Plot validation for Irminger 2 deployment, and Irminger 3 recovery
+•	Instrument burst sampling should be averaged to one data point
+•	CTD rosette data needs to be parsed out to different measurements
+•	Water sampling data needs to be put into a common format
+•	Need to determine timing for plotting
+
+Challenges
+•	DOSTA data may be off if foil was not sufficiently wetted
+•	PHSEN/PCO2W may not be running at the time of the CTD cast
+•	Needs to be modular to be able to run bits and pieces at different times with what is available
+•	Shipboard CTD data may be in different formats from different ships
+
+Steps
+•	Determine time periods and OOI data sets (based on CTD cast timing for both deployed and recovered CTD casts)
+
+
+For each instrument/measurement type:
+•	Download telemetered data from OOI Data Portal (M2M)
+•	Download recovered data from OOI Data Portal (M2M)
+•	Download CTD cast files
+•	Download Water Sampling results files
+
+•	Process OOI data 
+  –	Average burst data
+  –	
+•	Put Water Sampling data into a common format
+•	Ensure all datasets are in a common output format (units)
+
+•	Plot all data on one plot
